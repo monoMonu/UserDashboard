@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+html, body {
+   font-family: Arial, sans-serif;
+   color: #fff;
+}
+
+/* dashboard */
+.dashboard {
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   gap: 30px;
+   padding: 1.5rem;
+   background: linear-gradient(135deg, #222, #444);
+   background: linear-gradient(to right, #d0af53 0%, #3b3b3b 33%, #3b3b3b 66%, #030303 100%);
+   min-height: 100vh;
+}
