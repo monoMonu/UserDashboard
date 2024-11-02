@@ -123,7 +123,7 @@ function UserDataSec() {
       {/* This is the body video section */}
       <div style={styles.bodyvedio_container}>
         <video style={styles.videoFrame} controls>
-          <source src="../public/videoplayback.mp4" type="video/mp4" />
+          <source src="/videoplayback.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
