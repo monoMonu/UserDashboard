@@ -193,9 +193,6 @@ function CredibilitySec() {
 function TechSkillBlock({ icon, level, skill }) {
    return (
       <div style={styles.skillItem}>
-         {/* <div style={styles.techIcon}>
-            {icon}
-         </div> */}
          <FontAwesomeIcon icon={icon} style={styles.techIcon}/>
          <span style={{ fontSize: '1.3rem', fontWeight: 500, paddingTop: '14px' }}>{level}%</span>
          <span style={{ fontSize: '.7rem', color: '#fff9' }}>{skill}</span>
@@ -222,15 +219,14 @@ const styles = {
       display: 'flex',
       flexDirection: 'column',
       background: "#141414",
-      borderRadius: "1.5rem",
-      height: "calc(100vh - 48px)",
-      overflowY: "auto",
+      borderRadius: "24px",
       padding: "24px",
       gap: "5px",
       minWidth: "400px",
       maxWidth: "450px",
-      scrollbarWidth: "thin",
-      scrollbarColor: '#eee transparent',
+      marginTop: "122px",
+      // scrollbarWidth: "thin",
+      // scrollbarColor: '#eee transparent',
    },
    heading: {
       fontSize: "1.8rem",
