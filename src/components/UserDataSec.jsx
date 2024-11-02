@@ -123,7 +123,7 @@ function UserDataSec() {
       {/* This is the body video section */}
       <div style={styles.bodyvedio_container}>
         <video style={styles.videoFrame} controls>
-          <source src="../public/videoplayback.mp4" type="video/mp4" />
+          <source src="../public/interview.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
@@ -142,20 +142,21 @@ const styles = {
     borderRadius: '10px',
   },
   dashboardText: {
-    fontSize: '2.8125rem', 
+    fontSize: '3.5rem',
     fontWeight: '900',
     color: '#FFFFFF',
     margin: 0,
   },
   poweredText: {
     marginTop: "10px",
-    fontSize: '0.625rem', 
-    fontWeight: '100',
+    fontSize: '0.625rem',  
+    fontWeight: '200',
     color: '#FFFFFF',
     textTransform: 'uppercase',
   },
   moronsText: {
     color: '#d4a03a',
+    fontWeight: '300',
   },
   bodyContainer: {
     display: "flex",
@@ -169,7 +170,7 @@ const styles = {
     marginLeft: "50px",
   },
   profilePart: {
-    flex: "0.28",
+    flex: "0.29",
     alignItems: "center",
     justifyContent: "center",
 
@@ -222,14 +223,14 @@ const styles = {
     marginTop: "20px"
   },
   description: {
-    flex: "0.44",
+    flex: "0.42",
     alignItems: "center",
     justifyContent: "center",
     borderLeft: "0.5px solid gray",
     borderRight: "0.5px solid gray",
   },
   profilePart_description: { 
-    flex: "0.28",
+    flex: "0.29",
   },
   profilePart_alldescription: { 
     padding: "10px",
@@ -315,10 +316,10 @@ contributions: {
 },
  profilePart_Details: {
     color: "gray",
-    fontSize: '1.1rem', 
+    fontSize: '1.05rem', 
    },
    profilePart_Details_heading: {
-    fontSize: '1.0rem', 
+    fontSize: '1.05rem', 
     fontWeight: "700",
     marginTop: "10px",
     marginBottom: "7px"
