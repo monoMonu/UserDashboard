@@ -228,10 +228,10 @@ const styles = {
     borderLeft: "0.5px solid gray",
     borderRight: "0.5px solid gray",
   },
-  profilePart_description: { //error
+  profilePart_description: { 
     flex: "0.28",
   },
-  profilePart_alldescription: { //error
+  profilePart_alldescription: { 
     padding: "10px",
   },
   allDescription: {
