@@ -1,6 +1,6 @@
 # User Dashboard
 
-## Screenshots
+## Screenshot
 ![alt text](image.png)
 ![alt text](image-1.png)
 ![alt text](image-2.png)
@@ -17,7 +17,7 @@
 First, fork the repository and clone it.
 
 ```
-git clone https://github.com/<username>/conference-website.git
+https://github.com/<username>/UserDashboard.git
 ```
 
 Move to client folder 
