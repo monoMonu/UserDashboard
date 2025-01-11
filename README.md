@@ -17,7 +17,7 @@
 First, fork the repository and clone it.
 
 ```
-https://github.com/<username>/UserDashboard.git
+git clone https://github.com/<username>/UserDashboard.git
 ```
 
 Move to client folder 
